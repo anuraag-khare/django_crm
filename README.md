@@ -1,5 +1,5 @@
 # django_crm
-A Customer Relationship Management Application with User authentication and permission management.
+A Customer Relationship Management Application with User authentication and permission management, using django templates for frontend.
 
 ## Installation
 Run the docker compose file:
