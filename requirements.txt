@@ -9,5 +9,4 @@ pycodestyle==2.10.0
 pytz==2023.3
 sqlparse==0.4.3
 tomli==2.0.1
-typed-ast==1.5.4
 typing_extensions==4.5.0
