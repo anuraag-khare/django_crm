@@ -8,10 +8,10 @@ ENV PYTHONUNBUFFERED=1
 RUN echo "http://dl-cdn.alpinelinux.org/alpine/v3.14/testing/" >> /etc/apk/repositories
 
 # Set the working directory to /app
-WORKDIR /example
+WORKDIR /crm
 
 # Copy the current directory contents into the container at /app
-COPY . /example
+COPY . /crm
 
 # Install Python 3.10, pip, and setuptools
 RUN apk add --no-cache --repository http://dl-cdn.alpinelinux.org/alpine/v3.14/testing/ py3-pip
